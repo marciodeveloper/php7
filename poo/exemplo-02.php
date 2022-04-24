@@ -48,7 +48,7 @@ class Carro {
 			"modelo"=>$this->getModelo(),
 			"motor"=>$this->getMotor(),
 			"ano"=>$this->getAno()
-		)
+		);
 	}
 
 }
@@ -58,6 +58,6 @@ $gol->setModelo("Gol GT");
 $gol->setMotor("1,6");
 $gol->setAno("2016");
 
-var_dump($gol->exibir());
+var_dump($gol->exibe());
 
 ?>
